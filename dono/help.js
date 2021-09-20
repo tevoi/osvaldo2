@@ -1,29 +1,8 @@
 const help = (prefix, pushpp, sender, time, patt, ucapanWaktu, horario, battre) => { 
 return `
-┏━━━━━━❮※❯━━━━━━━⸎
-┃
-┃๏› Olá ${pushpp} 
-┃๏› ${ucapanWaktu} 
-┃๏› seja bem vindo(a) 
-┃๏› ao menu de comandos
-┃
+
 ┣━━━━━━❮※❯━━━━━━━⸎
-┃
-┃๏› Prefixo:『 ${prefix} 』
-┃๏› Bateria:『 ${battre} 』
-┃๏› Data/Hora : ${time}
-┃๏› Patente : ${patt}
-┃
-┣━━━━━━❮※❯━━━━━━━⸎
-┃       『•IMPORTANTE•』
-┣━━━━━━❮※❯━━━━━━━⸎
-┃
-┃๏› ${prefix}bug (questione)
-┃๏› ${prefix}avalie (o quao bom)
-┃๏› ${prefix}sugestao (dica)
-┃
-┣━━━━━━❮※❯━━━━━━━⸎
-┃      『•MENU DE CMD•』
+┃      『•MENUS•』
 ┣━━━━━━❮※❯━━━━━━━⸎
 ┃
 ┃๏› ${prefix}menumontagem
@@ -34,7 +13,7 @@ return `
 ┃๏› ${prefix}menulogos
 ┃                      
 ┣━━━━━━❮※❯━━━━━━━⸎
-┃      『•CMDS BÁSICOS•』
+┃      『•COMANDOS PRINCIPAIS•』
 ┣━━━━━━❮※❯━━━━━━━⸎
 ┃
 ┃๏› ${prefix}calunia numero|bla|bla
@@ -235,6 +214,8 @@ return `
 ┃๏› INSTA : ${instagram}
 ┃๏› NÚMERO : wa.me/${ownerNumber} 
 ┃๏› YOUTUBE :〘 ${ytb} 〙
+┃๏›Nao adianta tenta, #Pedreiros Domina
+┃๏›© Pedreiros todo seus direitos reservados
 ┃
 ┗━ ❮ ${NamaBot} ❯━━━`
 }
